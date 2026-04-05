@@ -48,7 +48,7 @@ function MainApp() {
 
   if (loading) return (
     <div style={{ background:'#080812', minHeight:'100vh', display:'flex', alignItems:'center', justifyContent:'center', fontFamily:"'Sora',sans-serif", color:'#7C6EF5', fontSize:18, fontWeight:700 }}>
-      💸 Loading FinTrack...
+      💸 Loading FinTrack by himani...
     </div>
   );
 

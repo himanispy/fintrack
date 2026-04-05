@@ -9,13 +9,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: [
-    'http://localhost:3000',
-    'http://localhost:5173',
-    'https://fintrack-snowy-tau.vercel.app',
-    'https://fintrack-git-main-himanispys-projects.vercel.app',
-    /\.vercel\.app$/
-  ],
+  origin: true,
   credentials: true
 }));
 app.use(express.json());

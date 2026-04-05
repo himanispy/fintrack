@@ -32,7 +32,7 @@ export default function Login({ onSwitch }) {
       <div style={S.card}>
         <div style={{ textAlign:'center', marginBottom:32 }}>
           <div style={{ fontSize:42, marginBottom:8 }}>💸</div>
-          <h1 style={{ fontSize:26, fontWeight:800, background:'linear-gradient(135deg,#7C6EF5,#FF6B6B)', WebkitBackgroundClip:'text', WebkitTextFillColor:'transparent' }}>FinTrack</h1>
+          <h1 style={{ fontSize:26, fontWeight:800, background:'linear-gradient(135deg,#7C6EF5,#FF6B6B)', WebkitBackgroundClip:'text', WebkitTextFillColor:'transparent' }}>FinTrack <br> by Himani</br></h1>
           <p style={{ color:'#555', fontSize:13, marginTop:4 }}>Welcome back! Sign in to continue.</p>
         </div>
         <div style={{ marginBottom:16 }}>
